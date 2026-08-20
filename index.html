@@ -20,24 +20,27 @@ html {
 body {
   font-family: Arial, sans-serif;
   background: #08111f;
-  background-image: linear-gradient(rgba(8,17,31,0.35), rgba(8,17,31,0.35)), url('bopbee-emboss.jpg.png');
-background-size: cover;
-background-position: right top;
-background-attachment: fixed;
-background-repeat: no-repeat;
+  background-image:
+    linear-gradient(rgba(8,17,31,0.35), rgba(8,17,31,0.35)),
+    url('bopbee-emboss.jpg.png');
+  background-size: cover;
+  background-position: right top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #ffffff;
   line-height: 1.7;
 }
 
 header {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 40px 25px;
-    background: transparent;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 25px;
+  background: transparent;
 }
+
 .hero {
   max-width: 800px;
 }
@@ -173,6 +176,32 @@ section h2 span {
   background: #8fcfff;
 }
 
+/* SOCIAL MEDIA */
+.social-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 10px 16px;
+  border: 1px solid #2b4d6d;
+  border-radius: 25px;
+  color: #dcefff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #5aa9e6;
+  color: #06101d;
+  border-color: #5aa9e6;
+}
+
 footer {
   text-align: center;
   padding: 35px 20px;
@@ -193,6 +222,15 @@ footer {
 
   section h2 {
     font-size: 32px;
+  }
+
+  .social-links {
+    gap: 8px;
+  }
+
+  .social-links a {
+    padding: 9px 13px;
+    font-size: 13px;
   }
 }
 </style>
@@ -281,6 +319,7 @@ footer {
 
 <section id="contact">
   <div class="contact">
+
     <h2>Let's <span>Create</span></h2>
 
     <p>
@@ -288,9 +327,38 @@ footer {
       photographs and creative experiments.
     </p>
 
-    <a class="button" href="mailto: Bobbie.iarawan@gmail.com">
+    <a class="button" href="mailto:bobbie.irawan@gmail.com">
       Say Hello
     </a>
+
+    <div class="social-links">
+
+      <a href="https://www.facebook.com/bobbie.irawan"
+         target="_blank"
+         rel="noopener noreferrer">
+        Facebook
+      </a>
+
+      <a href="https://www.instagram.com/irawanbobbie"
+         target="_blank"
+         rel="noopener noreferrer">
+        Instagram
+      </a>
+
+      <a href="https://x.com/Bobbie_Irawan"
+         target="_blank"
+         rel="noopener noreferrer">
+        X
+      </a>
+
+      <a href="https://www.tiktok.com/@bopper"
+         target="_blank"
+         rel="noopener noreferrer">
+        TikTok
+      </a>
+
+    </div>
+
   </div>
 </section>
 
